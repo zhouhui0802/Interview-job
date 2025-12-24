@@ -1,0 +1,16 @@
+问题1：
+SpringBoot项目在maven中进行install的时候报出
+Execution repackage of goal org.springframework.boot:spring-boot-maven-plugin:2.3.4.RELEASE:repackage failed:
+Unable to find main class 错误
+
+解法1：因为有些模块没有启动类，导致找不到main.class,所以在每个包中添加SpringBoot的启动类
+
+问题2：
+配置文件：com.zaxxer.hikari.HikariDataSource飘红
+
+解法2：
+在maven中添加包
+<dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-jdbc</artifactId>
+</dependency>
