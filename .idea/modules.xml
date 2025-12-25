@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Interview-job.iml" filepath="$PROJECT_DIR$/Interview-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srb-service-core.iml" filepath="$PROJECT_DIR$/srb-service-core.iml" />
     </modules>
   </component>
 </project>

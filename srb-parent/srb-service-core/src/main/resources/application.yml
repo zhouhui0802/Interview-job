@@ -17,3 +17,8 @@ mybatis-plus: #mybatis
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #输出mysql的日志
   mapper-locations: classpath:com/atguigu/zh/core/mapper/xml/*.xml
+
+# 设置日志级别
+#logging:
+#  level:
+#    root: ERROR

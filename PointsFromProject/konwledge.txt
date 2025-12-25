@@ -14,3 +14,22 @@ Unable to find main class 错误
    <groupId>org.springframework.boot</groupId>
    <artifactId>spring-boot-starter-jdbc</artifactId>
 </dependency>
+
+问题3：
+解救跨域问题
+解法3：
+一般来说，在SpringBoot的后台加上@CrossOrigin(但是尚医通那个却一直报错，暂时还没找到解决方案)
+
+知识点：
+nginx反向代理
+配置内容：
+在配置文件里面添加
+location ~ /core/ {
+	proxy_pass http://localhost:8110;
+}
+location ~ /sms/ {
+	proxy_pass http://localhost:8120;
+}
+location ~ /oss/ {
+    proxy_pass http://localhost:8130;
+}
