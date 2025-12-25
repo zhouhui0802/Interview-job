@@ -13,6 +13,8 @@
     <module>srb-common</module>
     <module>srb-service-base</module>
     <module>srb-service-core</module>
+    <module>srb-service-sms</module>
+      <module>srb-service-oss</module>
   </modules>
 
   <parent>
