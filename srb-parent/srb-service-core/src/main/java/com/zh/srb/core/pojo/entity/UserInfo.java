@@ -24,6 +24,12 @@ import lombok.EqualsAndHashCode;
 @ApiModel(value="UserInfo对象", description="用户基本信息")
 public class UserInfo implements Serializable {
 
+    public static  final Integer STATUS_NORMAL = 1;
+    public static  final Integer STATUS_LOCKED = 0;
+    public static final String USER_AVATAR = "https://zhouhui-srb.oss-cn-beijing.aliyuncs.com/avatar/2025/12/15/81758929-dfa2-4187-8bb2-f359de32ab9f.jpg";
+
+
+
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "编号")
