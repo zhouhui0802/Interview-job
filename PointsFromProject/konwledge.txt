@@ -33,3 +33,11 @@ location ~ /sms/ {
 location ~ /oss/ {
     proxy_pass http://localhost:8130;
 }
+
+问题4：
+nuxt2跟Node.js版本不匹配的问题
+解决方案4：
+（1）首先安装nvm 这是个Node.js的版本管理工具
+（2）nvm list 查看所有已经安装的Node.js的版本
+（3）nvm install 20.5.1(Node.js的版本号)
+(4) nvm use 20.5.1 //环境中将使用20.5.1的版本
