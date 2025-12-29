@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="srb-service-core" />
         <module name="srb-service-oss" />
+        <module name="test_Nacos" />
         <module name="srb-service-base" />
         <module name="srb-service-sms" />
         <module name="srb-common" />

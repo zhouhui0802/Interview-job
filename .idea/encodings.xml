@@ -4,9 +4,12 @@
     <file url="file://$PROJECT_DIR$/srb-parent/srb-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/srb-parent/srb-service-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/srb-parent/srb-service-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srb-parent/srb-service-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/srb-parent/srb-service-oss/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/srb-parent/srb-service-sms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/srb-parent/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/srb-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_Nacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_Nacos/src/main/resources" charset="UTF-8" />
   </component>
 </project>
