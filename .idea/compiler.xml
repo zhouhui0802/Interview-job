@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="srb-service-core" />
         <module name="srb-service-oss" />
-        <module name="test_Nacos" />
         <module name="srb-service-base" />
         <module name="srb-service-sms" />
         <module name="srb-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test_Nacos" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
